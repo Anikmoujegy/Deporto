@@ -1,0 +1,58 @@
+header{
+    display: flex;
+}
+header > h4{
+    height: 30px;
+    background-color: greenyellow;
+    padding: 20px 5px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    margin: 5px;
+} 
+header > div{
+    height: 70px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+header > div > p.hs{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+header > div > p.s{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+button{
+    margin: 5px 5px;
+    height: 73px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: gray;
+}
+button:hover{
+    background-color: yellow;
+}
+main{
+    border-radius: 5px;
+    margin: 6px;
+    height: 435px;
+    width: 435px;
+    background-color: aqua;
+}
+main div{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin: 10px;
+    height: 95px;
+    width: 95px;
+    background-color: rgb(154, 55, 85);
+}
