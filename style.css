@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+/*header*/
+nav{
+    background-image: url(../M_site/images/developer.png) url(../M_site/images/header_bg.png);
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav > h3{
+    font-size: 300;
+}
+button.hire-me, button.skill{
+    color: #2d1303;
+    background-color: #be7017;
+    border: none;
+    border-radius: 2px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    align-content: center;
+}
+button.learn{
+    color: #be7017;
+    border: 2px solid #be7017;
+    border-radius: 2px;
+    height: 50px;
+    margin-left: 10px;
+    padding: 0 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    align-content: center;
+}
+a:hover{
+    text-decoration: underline;
+}
+button.hire-me, button.skill:hover{
+    background-color: rgb(222, 134, 34);
+}
+button.learn:hover{
+    color: #2d1303;
+    background-color: #be7017;
+    border: none;
+}
+button.learn, button.skill{
+    margin-top: 20px;
+}
+section > a{
+      margin-right: 10px;
+}
+.logo{
+    margin-left: 90px;
+    font-size: 45px;
+    font-weight: 800;
+}
+main{
+    display: flex;
+}
+article{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+img.herdy{
+    margin-right: 250px;
+    height: 500px;
+}
+.banner{
+    display: flex;
+}
+body{
+   
+    background-image: url(images/header_bg.png) url(images/developer.png) ;
+    background-repeat: no-repeat;
+}
