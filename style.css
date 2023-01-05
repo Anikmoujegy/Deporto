@@ -33,7 +33,7 @@ button.hire-me{
     margin-right: 30px;
 
 }
-button.skill{
+button.skill,.dcv{
     color: #2d1303;
     background-color: #be7017;
     border: none;
@@ -48,7 +48,7 @@ button.skill{
 a:hover{
     text-decoration: underline;
 }
-button.hire-me:hover, button.skill:hover{
+button.hire-me:hover, button.skill:hover, .dcv:hover{
     background-color: rgb(222, 134, 34);
 }
 
@@ -65,7 +65,7 @@ section > a{
     font-weight: 800;
 }
 main{
-    display: flex;
+    display: inline-block;
 }
 article{
     margin-left: 120px;
@@ -116,16 +116,17 @@ a.lmore{
 }
 a.lmore:hover{
     text-decoration: none;
-    color: #2d1303;
+    color: #515050;
     background-color: #be7017;
 }
-.about{
-    margin: 420px 350px 100px;
+.about,.whatdo{
+    margin: 420px 200px 100px;
     text-align: center;
 }
 .aboutme{
     font-size: 200%;
     margin-bottom: 30px;
+    text-align: center;
 }
 .allabout{
     margin-bottom: 30px;
@@ -136,5 +137,28 @@ table{
 .tablec{
     display: flex;
 }
-
-    
+.dopara{
+    color: #3a291b;
+}
+.summery{
+    margin: 420px 200px 100px;
+}
+.subtitle{
+    text-align: left;
+    margin-right: 30px;
+}
+.section{
+    margin-right: 10px;
+}
+.sumblock{
+    margin-top: 20px;
+}
+.year,.data{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #515050;
+}
+.dcv{
+    margin-top: 10px;
+    margin-left: 40%;
+}
