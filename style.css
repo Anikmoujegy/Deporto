@@ -3,12 +3,11 @@
     font-family: sans-serif;
 }
 body{
-    background-color: #fff2e8;
+    background-color: #fee6d4;
+    min-width: 1000PX;
 }
 /*header*/
 nav{
-    background-image: url(../M_site/images/developer.png) url(../M_site/images/header_bg.png);
-    margin: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -19,7 +18,10 @@ a{
 nav > h3{
     font-size: 300;
 }
-button.hire-me, button.skill{
+.other-link{
+    margin-top: 10px;
+}
+button.hire-me{
     color: #2d1303;
     background-color: #be7017;
     border: none;
@@ -28,18 +30,20 @@ button.hire-me, button.skill{
     padding: 0 20px;
     font-size: 0.9rem;
     font-weight: bold;
-    align-content: center;
+    margin-right: 30px;
+
 }
-button.learn{
-    color: #be7017;
-    border: 2px solid #be7017;
+button.skill{
+    color: #2d1303;
+    background-color: #be7017;
+    border: none;
     border-radius: 2px;
     height: 50px;
-    margin-left: 10px;
     padding: 0 20px;
     font-size: 0.9rem;
     font-weight: bold;
-    align-content: center;
+    margin-right: 30px;
+
 }
 a:hover{
     text-decoration: underline;
@@ -47,12 +51,8 @@ a:hover{
 button.hire-me:hover, button.skill:hover{
     background-color: rgb(222, 134, 34);
 }
-button.learn:hover{
-    color: #2d1303;
-    background-color: #be7017;
-    border: none;
-}
-button.learn, button.skill{
+
+button.skill{
     margin-top: 20px;
     margin-right: 10px;
 }
@@ -72,17 +72,19 @@ article{
     margin-right: 120px;
 }
 img.herdy{
-    margin-top: 135px;
+    height: 600px;
+    margin-top: 74px;
     margin-right: 100px;
-    height: 500px;
+    
 }
 .banner{
     display: flex;
 }
 header{
-    height:  750px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height:  760px;
     width: 100%;
-    background: #fffbf8;
     background-image: url(images/header_bg.png), url(images/developer.png) ;
     background-repeat: no-repeat;
     background-position: right bottom,left;
@@ -99,4 +101,40 @@ h1.name{
 }
 .about{
     margin: 10px 0;
+    text-align: justify;
 }
+a.lmore{
+    border: 2px solid #be7017;
+    color: #be7017;
+    border-radius: 2px;
+    height: 50px;
+    margin-left: 10px;
+    padding: 12px 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    align-content: center;
+}
+a.lmore:hover{
+    text-decoration: none;
+    color: #2d1303;
+    background-color: #be7017;
+}
+.about{
+    margin: 420px 350px 100px;
+    text-align: center;
+}
+.aboutme{
+    font-size: 200%;
+    margin-bottom: 30px;
+}
+.allabout{
+    margin-bottom: 30px;
+}
+table{
+    margin: auto;
+}
+.tablec{
+    display: flex;
+}
+
+    
