@@ -130,15 +130,18 @@ a.lmore:hover{
 }
 .allabout{
     margin-bottom: 30px;
+    color: #515050;
 }
 table{
     margin: auto;
 }
 .tablec{
+    color: #515050;
     display: flex;
+    gap: 24px
 }
 .dopara{
-    color: #3a291b;
+    color: #515050;
 }
 .summery{
     margin: 420px 200px 100px;
@@ -161,4 +164,31 @@ table{
 .dcv{
     margin-top: 10px;
     margin-left: 40%;
+}
+hr{
+    border: 1px solid #d1c8c0;
+}
+.doblock > h3{
+    margin: 15px;
+}
+.connect{
+    margin-right: 15px;
+}
+.connect > p, .messege > form{
+    margin-top: 10px;
+    color: #515050;
+}
+input, textarea{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #515050;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #fee6d4;
+    border-radius: 2px;
+    background-color: #fee6d4;
+}
+.connect a{
+    margin-right: 5px;
 }
