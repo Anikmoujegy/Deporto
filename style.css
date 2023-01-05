@@ -2,6 +2,9 @@
     margin: 0;
     font-family: sans-serif;
 }
+body{
+    background-color: #fff2e8;
+}
 /*header*/
 nav{
     background-image: url(../M_site/images/developer.png) url(../M_site/images/header_bg.png);
@@ -41,7 +44,7 @@ button.learn{
 a:hover{
     text-decoration: underline;
 }
-button.hire-me, button.skill:hover{
+button.hire-me:hover, button.skill:hover{
     background-color: rgb(222, 134, 34);
 }
 button.learn:hover{
@@ -51,6 +54,7 @@ button.learn:hover{
 }
 button.learn, button.skill{
     margin-top: 20px;
+    margin-right: 10px;
 }
 section > a{
       margin-right: 10px;
@@ -68,14 +72,31 @@ article{
     margin-right: 120px;
 }
 img.herdy{
-    margin-right: 250px;
+    margin-top: 135px;
+    margin-right: 100px;
     height: 500px;
 }
 .banner{
     display: flex;
 }
-body{
-   
-    background-image: url(images/header_bg.png) url(images/developer.png) ;
+header{
+    height:  750px;
+    width: 100%;
+    background: #fffbf8;
+    background-image: url(images/header_bg.png), url(images/developer.png) ;
     background-repeat: no-repeat;
+    background-position: right bottom,left;
+}
+h1.name{
+    font-size: 300%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.hi{
+    font-size: 200%;
+    margin-top: 180px;
+    margin-bottom: 30px;
+}
+.about{
+    margin: 10px 0;
 }
